@@ -36,7 +36,7 @@ def process_file(uploaded_file):
         return None
 
     prompt = f'''
-    Instruksi: Berikan roast sarkastik terhadap cover letter berikut. Gunakan metafora dan perumpamaan yang tajam untuk mengkritik kekurangan dan kekurangan dalam surat lamaran. Buat dalam bentuk paragraf dan tambahkan beberapa saran untuk cover letter tersebut.
+    Instruksi: Berikan roast sarkastik terhadap cover letter berikut. Gunakan metafora dan perumpamaan yang tajam untuk mengkritik kekurangan dan kekurangan dalam surat lamaran. Buat dalam bentuk paragraf dan tambahkan beberapa saran untuk cover letter tersebut. Jawab menggunakan bahasa indonesia.
 
     Cover Letter:
     {content}
